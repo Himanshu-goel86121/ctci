@@ -6,11 +6,8 @@
       <change afterPath="$PROJECT_DIR$/../DeepLearningModels/HAN/data.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DeepLearningModels/HAN/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DeepLearningModels/HAN/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_1/one_away.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_1/palindrome_permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_1/string_compression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_1/shortest_palindrome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_1/longest_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_1/longest_palindrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter_1/longest_palindrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="311">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="35" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter_1/shortest_palindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -91,6 +97,7 @@
         <option value="$PROJECT_DIR$/chapter_1/one_away.py" />
         <option value="$PROJECT_DIR$/chapter_1/string_compression.py" />
         <option value="$PROJECT_DIR$/chapter_1/longest_palindrome.py" />
+        <option value="$PROJECT_DIR$/chapter_1/shortest_palindrome.py" />
       </list>
     </option>
   </component>
@@ -156,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.string_compression">
+  <component name="RunManager" selected="Python.shortest_palindrome">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ctci" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,27 +198,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_1/longest_palindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearningModels" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DeepLearningModels/HAN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DeepLearningModels/HAN/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,6 +248,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="shortest_palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ctci" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_1/shortest_palindrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="string_compression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ctci" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,19 +292,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.longest_palindrome" />
       <item itemvalue="Python.palindrome_permutation" />
       <item itemvalue="Python.one_away" />
       <item itemvalue="Python.string_compression" />
+      <item itemvalue="Python.shortest_palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.shortest_palindrome" />
         <item itemvalue="Python.string_compression" />
         <item itemvalue="Python.one_away" />
         <item itemvalue="Python.palindrome_permutation" />
         <item itemvalue="Python.longest_palindrome" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -318,12 +325,12 @@
     <frame x="0" y="0" width="1378" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24402985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36166924" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36166924" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,13 +402,6 @@
     <entry file="file://$PROJECT_DIR$/../DeepLearningModels/HAN/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_1/string_compression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter_1/palindrome_permutation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -418,8 +418,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_1/longest_palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="311">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_1/string_compression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_1/shortest_palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
